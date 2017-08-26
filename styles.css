@@ -1,0 +1,45 @@
+.info {
+  text-align: center;
+}
+
+.center {
+  border: 3px solid green;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  width: 8%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.myinfo {
+  text-align: center;
+  background-color: maroon;
+  color: yellow;
+  padding: 20px;
+}
+
+.text {
+  /*text-align: center;*/
+  padding-left: 500px;
+}
+
+.color {
+  background-color: #FFBE33;
+  padding: 20px
+}
+
+.background {
+  background-color: #FF5E33;
+  padding: 10px;
+}
+
+.projects {
+  /*border: 3px solid green;*/
+  padding: 10px;
+  display: block;
+  margin: auto;
+  width: 15%;
+}
