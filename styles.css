@@ -1,4 +1,374 @@
+/**** Contact page ****/
+.contain {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 80%;
+  margin: 40px auto 40px auto;
+  background-color: #f5f5dc;
+  padding: 65px;
+ }
+
+.color {
+  color: #0000ff;
+  font-weight: bold;
+}
+
+.font {
+  font-weight: bolder;
+  font-size: 1.25em;
+  padding: 20px;
+
+}
+
+.copyright {
+  text-align: center;
+}
+
+.myinfo {
+  font-weight: bold;
+}
+
+.myinfo h2 {
+  /*background-color: #B38B6D;*/
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/*.jumbotron {
+  background-image: url("../img/lake.jpg");
+  background-size: 100%;
+}*/
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Arvo', Helvetica, Arial, sans-serif
+}
+
+.header {
+  color: #0000ff;
+  /*padding-top: -100px;*/
+}
+
+.header h1 {
+   font-family: Shrikhand, Helvetica, Arial, sans-serif;
+}
+
+.image span:hover, .clients span:hover, .myinfo span:hover {
+  color: #0000ff;
+  text-decoration: none;
+  transition: color 400ms;
+}
+
+.containertwo {
+  position: relative;
+  width: 75%;
+  margin: 80px auto 80px auto;
+  background-color: #f5f5dc;
+  padding: 50px;
+  padding-top: 5px;
+}
+
+.panel-title {
+  font-family: Arvo, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.panel-body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 900;
+}
+
+.form-control {
+  font-family: Arvo, Helvetica, Arial, sans-serif;
+}
+
+.carousel-caption {
+  color: #FFFF00;
+  font-weight: bolder;
+}
+
+.carousel-caption h2 {
+  font-size: 3em;
+}
+
+.carousel {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/*about styles*/
+
+* { box-sizing: border-box; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 100px;
+}
+
+.header h1 {
+  text-align: center;
+  position: static;
+  color: blue;
+  clear: both;
+}
+
+.image {
+  display: inline-block;
+  float: left;
+  margin-right:3%;
+}
+
+.column {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  padding: 0 20px;
+  margin-right:3%;
+}
+
+.main-text {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  clear: both;
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.assign {
+  width: 100%;
+  padding-top: 40px;
+}
+
+/*h1, h2, h3 {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}*/
+
+#fonts h2 {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+#fonts p {
+  font-family: Arvo, Helvetica, Arial, sans-serif;
+}
+
+#skill-list {
+  margin-left: 50px;
+}
+
+/*Typography*/
+
+.intro {
+  padding: 20px;
+  padding-right: 80px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.intro p {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  -webkit-margin-before: 0;
+}
+
+.skills h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body {
+  position: relative;
+  background-color: #fffeea;
+  color: #34495e;
+}
+
+.skills {
+  background-color: #5AD4C2;
+  color: #FFF;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.skills li {
+  text-align: left;
+}
+
+.image-margins {
+  margin: 50px;
+}
+
+.fonts {
+  color: white;
+  font-weight: bolder;
+  padding-left: 100px;
+  font-size: 1.5em;
+}
+
+.projectName {
+  text-transform: uppercase;
+}
+
+.projectName a {
+  color: white;
+}
+
+#spacing {
+  padding-bottom: 50px;
+}
+
+#contact{
+  background-image: url("../img/keyboardimg.jpg");
+  background-attachment: fixed;
+  padding-top: 70px;
+  padding-bottom: 30%;
+  margin-top: 0px;
+  width: 100%;
+  height:100%;
+  background-color: #e9e8e5;
+  background-size: cover;
+}
+
+.myfooter{
+   max-height:20px;
+   float: left;
+   padding-left: 90px;
+   font-weight: bolder;
+}
+
+.video{
+  max-width: 580px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 2000px;
+}
+
+.form-control {
+  width: 80%;
+}
+
+.form-group {
+  padding-top: 50px;
+  color: blue;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.copyright {
+  color: blue;
+}
+
+.learn-more {
+  text-align: left;
+  float: left;
+  clear: both;
+  color: blue;
+  font-weight: bolder;
+  padding-top:  50px;
+  padding-left: 150px;
+  margin-top: -10px;
+}
+
+.modal-button {
+  float: right;
+  clear: both;
+  padding: 15px;
+}
+
+ #faq {
+  padding-top: 5px;
+ }
+
+ .modal-button {
+  margin-right: 250px;
+  margin-top: -48px;
+ }
+
+ #modalEmbed {
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+ }
+
+ .close {
+    padding-left: 1000px;
+  }
+
+ .modal-header button {
+  float: right;
+ }
+
+ .close {
+  float:right;  
+  padding:10px;
+  margin-top:15px; 
+  margin-right: 1.5%
+}
+
+#about {
+  padding-top: 50px;
+}
+
+.message {
+  font-family: Shrikhand, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: blue;
+  font-weight: bolder;
+  padding-top: 110px;
+}
+
+.message h1 {
+  font-family: Shrikhand, Helvetica, Arial, sans-serif;
+}
+
+#work {
+  padding-top: 25px;
+}
+
+.work-img {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+  position: relative;
+}
+
 .info {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  bottom: 2%;
+  color: yellow;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.5em;
+  line-height: 1.9;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.proj-title {
+  font-weight: 100;
+}
+
+#map {
+  height: 400px;
+  width: 400px;
+}
+
+
+
+
+/*Previous CSS from first portfolio - Version 1*/
+/*.info {
   text-align: center;
 }
 
@@ -22,7 +392,6 @@ h2 {
 }
 
 .text {
-  /*text-align: center;*/
   padding-left: 500px;
 }
 
@@ -37,9 +406,16 @@ h2 {
 }
 
 .projects {
-  /*border: 3px solid green;*/
   padding: 10px;
   display: block;
   margin: auto;
   width: 15%;
 }
+
+.middle {
+  padding: 10px;
+  display: block;
+  margin: auto;
+  width: 10%;
+}
+*/
